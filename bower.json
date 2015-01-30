@@ -1,0 +1,19 @@
+{
+  "name": "LiveReloadSample",
+  "version": "0.0.0",
+  "authors": [
+    "Alaa El Helw <work@sunny.fr>",
+    "Pelletey Grégory <ptitgraig@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "components-font-awesome": "~4.2.0"
+  }
+}

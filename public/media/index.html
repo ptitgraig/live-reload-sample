@@ -1,0 +1,60 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <title>Tiilta Connect</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/bower/bootstrap-theme-white-plum/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/bower/components-font-awesome/css/font-awesome.min.css"/>
+    <script type="text/javascript" src="/bower/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="/bower/bootstrap/dist/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            padding-bottom: 60px;
+        }
+        .image img{
+           max-width: 90%;
+            max-height: 250px;
+        }
+        .image p {
+            margin-top: 10px;
+            word-break: break-all;
+        }
+        .image .wrap {
+            text-align: center;
+            background-color: #F0F0F0;
+            line-height: 250px;
+            min-height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+<div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
+                <span class="sr-only">Tiilta Connect</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">White Plum</a>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="jumbotron">
+        <h1>Your Uploaded Files</h1>
+        <p>Automagicly upload file to tiilta <span class="fa fa-cloud"></span> </p>
+
+    </div>
+    <div class="row images"></div>
+</div>
+
+<script src="http://localhost:9009/socket.io/socket.io.js"></script>
+<script src="http://localhost:9009/js-live/media.js"></script>
+</body>
+
+</html>

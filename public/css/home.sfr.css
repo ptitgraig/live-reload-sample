@@ -1,0 +1,73 @@
+.sfrDom .userBanner .user-avatar {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+  margin-right: .5em;
+  width: 55px;
+}
+.sfrDom .userBanner .user-avatar:hover .layer {
+  webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+.sfrDom .userBanner .user-avatar:hover .label {
+  bottom: 0;
+}
+.sfrDom .userBanner .user-avatar img {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+.sfrDom .userBanner .user-avatar .label {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -30px;
+  font-size: 11px;
+  line-height: 1;
+  padding: .25em 0 .15em;
+  text-align: center;
+  color: #fff;
+  background: #333;
+  background: rgba(0, 0, 0, 0.75);
+  -webkit-transition: all 0.15s ease-out;
+  -o-transition: all 0.15s ease-out;
+  transition: all 0.15s ease-out;
+}
+.sfrDom .userBanner .user-avatar .layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  width: 55px;
+  background: rgba(0, 0, 0, 0.55);
+  text-align: center;
+  -webkit-transition: all 150ms ease-out;
+  -o-transition: all 150ms ease-out;
+  transition: all 150ms ease-out;
+}
+.sfrDom .userBanner .user-avatar .layer:before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  margin: 8px auto;
+  background: url(//static.s-sfr.fr/media/user_avatar-icon-add.jpg) center no-repeat;
+}
+.sfrDom .sfrG13 .rowExplore .span3.col.right {
+  border: 1px solid #000;
+  position: relative;
+}
+.sfrDom .sfrG13 .rowExplore .span3.col.right:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  height: 100%;
+  width: 40px;
+  content: " ";
+  bottom: -100%;
+}
